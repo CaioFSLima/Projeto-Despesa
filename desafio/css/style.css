@@ -1,0 +1,203 @@
+/* 
+# Front-end Style Guide 
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft red: hsl(10, 79%, 65%)
+- Cyan: hsl(186, 34%, 60%)
+
+### Neutral
+
+- Dark brown: hsl(25, 47%, 15%)
+- Medium brown: hsl(28, 10%, 53%)
+- Cream: hsl(27, 66%, 92%)
+- Very pale orange: hsl(33, 100%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font
+
+- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
+- Weights: 400, 700
+ */
+
+body {
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    width: 500px;
+    height: 80px;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: 30px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.balance {
+    color: white;
+    font-size: medium;
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.hero {
+    background-color: hsl(33, 100%, 98%);
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.bars {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: end;
+    padding-top: 30px;
+}
+
+.mon {
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(10, 79%, 65%);
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.tue {
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(10, 79%, 65%);
+    width: 50px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.wed {
+    background-color: hsl(186, 34%, 60%);
+    color: hsl(186, 34%, 60%);
+    width: 50px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.thu {
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(10, 79%, 65%);
+    width: 50px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.fri {
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(10, 79%, 65%);
+    width: 50px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.sat {
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(10, 79%, 65%);
+    width: 50px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.sun {
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(10, 79%, 65%);
+    width: 50px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.money {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.line {
+    background-color: rgb(211, 211, 211);
+    width: 440px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.money2 {
+    padding-left: 5px;
+    font-size: xx-large;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.total {
+    font-size: 12px;
+    color: gray;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.percent {
+    margin-top: -70px;
+    margin-right: 30px;
+}
+
+.percent2 {
+    text-align: end;
+}
+
+.t1 {
+    font-size: 15px;
+    color: gray;
+}
+.blackBox{
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: -10px;
+    margin-top: -30px;
+    text-align: center;
+}
